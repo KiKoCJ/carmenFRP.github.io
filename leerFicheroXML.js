@@ -1,9 +1,8 @@
 function gestionarFicheroXML(xmlDoc){
 	
-	alert(xmlDoc.getElementsByTagName('alumno')[0].firstChild.nodeValue)
-	alert(xmlDoc.getElementsByTagName('alumnos')[0].childNodes[1].firstChild.nodeValue)
-
-	document.getElementById('ficheroXML').innerHTML += "<b>" + xmlDoc.querySelector('alumno:nth-child(2)').textContent + "</b>"
+	let alumnos = xmlDoc.querySelectorAll("alumno")
+	for(let i=0; i<alumnos.length; i++)
+		alert(alumnos[i])
 	
 }
 
