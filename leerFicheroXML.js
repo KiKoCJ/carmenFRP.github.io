@@ -2,7 +2,7 @@ function gestionarFicheroXML(xmlDoc){
 	
 	let alumnos = xmlDoc.querySelectorAll("alumno")
 	for(let i=0; i<alumnos.length; i++)
-		alert(alumnos[i])
+		alert(alumnos[i].textContent)
 	
 }
 
