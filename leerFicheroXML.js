@@ -1,4 +1,5 @@
 function gestionarFicheroXML(xmlDoc){
+	alert("Actualizado")
 	
 	let alumnos = xmlDoc.querySelectorAll("alumno")
 	for(let i=0; i<alumnos.length; i++)
