@@ -1,9 +1,9 @@
 function gestionarFicheroXML(xmlDoc){
-	alert("Actualizado")
-	
+	alert("Actualizado 2")
+	let capa = document.querySelector("#ficheroXML")
 	let alumnos = xmlDoc.querySelectorAll("alumno")
 	for(let i=0; i<alumnos.length; i++)
-		alert(alumnos[i].textContent)
+		capa.innerHTML += "<p>" + alumnos[i].textContent + "</p>"
 	
 }
 
