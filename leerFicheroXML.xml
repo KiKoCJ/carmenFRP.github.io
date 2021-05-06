@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <alumnos>
-	<alumno>Laura</alumno>
-	<alumno>Jose</alumno>
-	<alumno>Ismael</alumno>
-	<alumno>Juanma</alumno>
 	<alumno>Jorge</alumno>
+	<alumno>Jose</alumno>
+	<alumno>Lenny</alumno>
 	<alumno>Pablo</alumno>
-		<alumno>Alberto</alumno>
+	<alumno>Rubén</alumno>
+	<alumno>Juan</alumno>
 </alumnos>
