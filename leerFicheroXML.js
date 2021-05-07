@@ -8,5 +8,5 @@ function gestionarFicheroXML(xmlDoc){
 
 document.querySelector("div:nth-child(1)").addEventListener("click",()=>{
 
-    loadLDocA("leerFicheroXML.xml","xml");
+    loadDocA("leerFicheroXML.xml","xml");
 })
