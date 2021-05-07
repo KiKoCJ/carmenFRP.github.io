@@ -6,7 +6,9 @@ function gestionarFicheroXML(xmlDoc){
 	
 }
 
-document.querySelector("div:nth-child(1)").addEventListener("click",()=>{
-
-    loadDocA("leerFicheroXML.xml","xml");
-})
+let capa = document.querySelector("div:nth-child(1)") 
+capa.addEventListener("click",CargarFichero);
+function CargarFichero()
+{
+	loadDocA("leerFicheroXML.xml","xml");
+}
