@@ -7,5 +7,5 @@ function  gestionarFicheroTXT(txt)
 }
 
 document.querySelector("div:nth-child(1)").addEventListener("mouseover",()=>{
- loadLDocA("leerFicherotxt.txt","txt");*/
+ loadLDocA("leerFicherotxt.txt","txt");
 })
