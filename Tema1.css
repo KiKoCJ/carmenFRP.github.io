@@ -1,0 +1,32 @@
+body
+{
+    color: black;
+    text-align: justify;
+}
+
+h1
+{
+    color: grey;
+}
+
+h2
+{
+    color: #7db7f5;
+}
+
+a
+{
+    color: #face93;
+    font-weight: bold;
+}
+
+figure img
+{
+    width: 300px;
+    height: 300px;
+}
+
+figure
+{
+    text-align: center;
+}
